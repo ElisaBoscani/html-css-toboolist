@@ -52,24 +52,7 @@ h2 {
 .inline {
   display: inline-block;
 }
-.check {
-  display: inline-block;
-  color: green;
-  width: 20px;
-  height: 20px;
-  border: solid 1px green;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 17px;
-}
-.edit {
-  background-color: var(--bool-editorial);
-  border-radius: 8px;
-  padding: 5px;
-  font-size: 10px;
-  color: var(--bool-white);
-  vertical-align: bottom;
-}
+
 /* #endregion utility */
 
 /* #region header */
@@ -107,13 +90,45 @@ h2 {
 
 /* #region content */
 .content {
-  height: 500px;
+  height: auto;
   background-color: var(--bool-white);
   padding-left: 50px;
 }
 .card {
   padding-bottom: 20px;
 }
+/* style chck and cross */
+.check {
+  display: inline-block;
+  color: green;
+  width: 20px;
+  height: 20px;
+  border: solid 1px green;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17px;
+}
+.cross {
+  display: inline-block;
+  color: red;
+  width: 20px;
+  height: 20px;
+  border: solid 1px red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17px;
+}
+/* end style chck and cross */
+/* style element  */
+.edit {
+  background-color: var(--bool-editorial);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
+}
+
 .goals {
   background-color: var(--bool-goals);
   border-radius: 8px;
@@ -122,3 +137,41 @@ h2 {
   color: var(--bool-white);
   vertical-align: bottom;
 }
+
+.recruiting {
+  background-color: var(--bool-recluiting);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
+}
+
+.mobile {
+  background-color: var(--bool-mobile);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
+}
+
+.website {
+  background-color: var(--bool-website);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
+}
+
+.sales {
+  background-color: var(--bool-sales);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
+}
+/* end style element  */
+/* #endregion content */
