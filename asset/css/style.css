@@ -25,6 +25,7 @@ h1 {
 h2 {
   font-size: 20px;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 /* #endregion global */
@@ -62,11 +63,9 @@ h2 {
   line-height: 17px;
 }
 .edit {
-  width: 58px;
-  height: 20px;
   background-color: var(--bool-editorial);
   border-radius: 8px;
-  padding-left: 10px;
+  padding: 5px;
   font-size: 10px;
   color: var(--bool-white);
   vertical-align: bottom;
@@ -110,5 +109,16 @@ h2 {
 .content {
   height: 500px;
   background-color: var(--bool-white);
-  padding: 20px;
+  padding-left: 50px;
+}
+.card {
+  padding-bottom: 20px;
+}
+.goals {
+  background-color: var(--bool-goals);
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
 }
