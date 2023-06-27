@@ -1,0 +1,42 @@
+/* #region global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bool-page);
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  display: inline;
+  vertical-align: 40%;
+}
+/* #endregion global */
+/* #region utility */
+:root {
+  --bool-white: white;
+  --bool-page: #f6f8f9;
+  --bool-add_task: #47adf1;
+  --bool-editorial: #45abea;
+  --bool-goals: #9c72e4;
+  --bool-recluiting: #64c0a9;
+  --bool-mobile: #f29e33;
+  --bool-website: #d863a1;
+  --bool-sales: #b0c926;
+}
+
+.p_5 {
+  padding: 5px;
+}
+/* #endregion utility */
+
+/* #region header */
+
+.logo {
+  background-color: var(--bool-white);
+  height: 65px;
+}
+/* #endregion header */
