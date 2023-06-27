@@ -10,16 +10,30 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  width: 750px;
+
+  margin: 50px auto;
+  border-radius: 1%;
+}
+
 h1 {
   display: inline;
   vertical-align: 40%;
 }
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
 /* #endregion global */
 /* #region utility */
 :root {
   --bool-white: white;
   --bool-page: #f6f8f9;
   --bool-add_task: #47adf1;
+  --bool-add_section: #d3d7db;
   --bool-editorial: #45abea;
   --bool-goals: #9c72e4;
   --bool-recluiting: #64c0a9;
@@ -29,7 +43,33 @@ h1 {
 }
 
 .p_5 {
-  padding: 5px;
+  padding: 6px;
+}
+.backgroun {
+  background-color: var(--bool-white);
+}
+.inline {
+  display: inline-block;
+}
+.check {
+  display: inline-block;
+  color: green;
+  width: 20px;
+  height: 20px;
+  border: solid 1px green;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 17px;
+}
+.edit {
+  width: 58px;
+  height: 20px;
+  background-color: var(--bool-editorial);
+  border-radius: 8px;
+  padding-left: 10px;
+  font-size: 10px;
+  color: var(--bool-white);
+  vertical-align: bottom;
 }
 /* #endregion utility */
 
@@ -40,3 +80,35 @@ h1 {
   height: 65px;
 }
 /* #endregion header */
+
+/* button */
+.buttons {
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+  margin-bottom: 2px;
+}
+
+.add_task {
+  border-radius: 4px;
+  background-color: var(--bool-add_task);
+  color: var(--bool-white);
+  border: none;
+  padding: 7px 12px;
+}
+
+.add_section {
+  border-radius: 4px;
+  background-color: var(--bool-white);
+  color: var(--bool-add_section);
+  border: var(--bool-add_section) solid 1.5px;
+  padding: 7px 12px;
+}
+/* /end button */
+
+/* #region content */
+.content {
+  height: 500px;
+  background-color: var(--bool-white);
+  padding: 20px;
+}
